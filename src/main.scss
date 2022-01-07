@@ -1,7 +1,29 @@
 body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    input { width: 70px; text-align: center; }
 }
 
 .cuDoMagico {
-
+    width: 50vw;
+    height: 50vh;
+    background: red;
+    margin: 5% auto auto auto;
+    border-radius: 20px;
 }
